@@ -13,6 +13,36 @@
     color: var(--main-color);
 }
 
+header {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 30px 50px;
+    gap: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+
+.accommodation,
+.activities {
+    padding: 25px 50px;
+}
+
+.accommodation:hover,
+.activities:hover {
+    color: var(--main-color);
+    border-top: 2px solid var(--main-color);
+}
+
 body {
     display: flex;
     justify-content: center;
