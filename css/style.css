@@ -96,6 +96,11 @@ nav a {
 }
 
 /****** Filters ***********/
+.filters {
+    display: flex;
+    flex-direction: row;
+}
+
 .filters ul {
     display: flex;
     flex-direction: row;
