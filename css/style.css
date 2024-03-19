@@ -325,6 +325,7 @@ a {
 
 .activities-cards .card-content {
     width: 90%;
+    max-height: 50px;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
