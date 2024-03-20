@@ -20,7 +20,6 @@
 
 /****** Header ***********/
 header {
-    max-width: 1440px;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -156,6 +155,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -325,11 +325,10 @@ a {
 
 .activities-cards .card-content {
     width: 90%;
-    max-height: 50px;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+
 }
 
 /****** Footer ***********/
@@ -342,8 +341,8 @@ footer {
 .footer {
     display: flex;
     flex-direction: row;
-    gap: 200px;
-    margin: 0 20px;
+    justify-content: space-between;
+    margin: 0 100px 0 20px;
 }
 
 .footer-content {
@@ -421,6 +420,15 @@ footer {
 
     .activities-cards a {
         width: 25%;
+    }
+
+    .activities-cards .card {
+        height: 100%;
+    }
+
+
+    .activities-cards .card-title {
+        margin: 0;
     }
 
 }
