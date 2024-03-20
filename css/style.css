@@ -494,7 +494,8 @@ footer {
     }
 
     .search-location {
-        width: 230px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .filters ul {
