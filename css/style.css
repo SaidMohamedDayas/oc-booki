@@ -498,6 +498,10 @@ footer {
         justify-content: space-between;
     }
 
+    .search-location input {
+        width: 100%;
+    }
+
     .filters ul {
         width: 100%;
         flex-wrap: wrap;
