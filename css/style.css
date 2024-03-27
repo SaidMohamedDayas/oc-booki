@@ -152,7 +152,7 @@ body {
     margin: 0;
 }
 
-.main-container {
+.body-container {
     width: 100%;
     max-width: 1440px;
     min-width: 320px;
@@ -410,10 +410,6 @@ footer {
         font-size: 13px;
     }
 
-    .activities-cards {
-        height: 270px;
-    }
-
     .activities-cards img {
         height: 200px;
     }
@@ -443,19 +439,11 @@ footer {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     * {
-        font-size: 14px;
+        box-sizing: border-box;
     }
 
-    main {
-        height: 3770px;
-    }
-
-    .main-container {
+    .body-container {
         padding: 0;
-    }
-
-    main {
-        padding: 0 20px;
     }
 
     header {
@@ -474,6 +462,9 @@ footer {
         justify-content: space-evenly;
     }
 
+    .title {
+        padding: 0 20px;
+    }
 
     .accommodation,
     .activities-nav {
@@ -501,12 +492,17 @@ footer {
     }
 
     .search-location {
-        width: 100%;
+        width: 90%;
         justify-content: space-between;
+        margin: 30px;
     }
 
     .search-location input {
         width: 100%;
+    }
+
+    .filters {
+        padding: 0 20px;
     }
 
     .filters ul {
@@ -516,7 +512,15 @@ footer {
     }
 
     .filters li {
-        width: 110px;
+        width: 45%;
+        font-size: 14px;
+    }
+
+    .info {
+        padding: 0 20px;
+    }
+
+    .info i {
         font-size: 14px;
     }
 
@@ -568,6 +572,7 @@ footer {
     /****** Activities mobile ***********/
 
     .activities {
+        padding: 0 20px;
         margin-top: 20px;
     }
 
